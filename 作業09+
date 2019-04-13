@@ -1,0 +1,29 @@
+＃包括< stdio.h中>
+＃包括< stdlib.h中>
+int  main（void）
+{
+	int P，O，I;
+	printf（“請輸入幾月幾日：”）;
+	scanf（“％d％d ”，＆P，＆O）;
+
+	I =（P * 2 + O）％3 ;
+	if（I == 0）
+	{
+		printf（“普通”）;
+	}
+	否則 如果（I == 1）
+	{
+		printf（“吉”）;
+	}
+	否則 如果（I == 2）
+	{
+		printf（“大吉”）;
+	}
+	其他
+	{
+		printf（“輸入錯誤”）;
+	}
+
+	系統（“暫停”）;
+	返回 0 ;
+}
